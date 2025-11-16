@@ -41,7 +41,7 @@ return (
 <div className="min-h-screen">
   <Navbar theme={theme} setTheme={setTheme} />
   
-  <main className="max-w-5xl mx-auto px-4 py-8">
+  <main className="max-w-5xl mx-auto py-8">
     <Hero />
     <Skills />
     <Work />

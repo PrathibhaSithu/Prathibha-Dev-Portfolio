@@ -33,43 +33,64 @@ const illustration = {
 
 const greeting = {
   username: "Prathibha Sithumini",
-  title: "Hi all, I'm Prathibha",
+  title: "Hello, I am",
+  greet: "Have a great day! ",
   animated: animatedSplash,
   subTitle: emoji(
     "Dedicated Frontend Developer skilled in React.js, Vue.js, HTML, CSS, and Tailwind CSS, experienced in microservices architecture. AWS & Azure certified, passionate about performance, problem-solving, and creating seamless, scalable UI/UX experiences."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1upb7UunZ9m-ArmB3VOItlludNKv81odt/view?usp=sharing", 
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true
 };
 
-// Social Media Links
+// Social Media Links 
 
 const socialMediaLinks = {
-  github: "https://github.com/PrathibhaSithu",
-  linkedin: "https://www.linkedin.com/in/prathisithumini",
-  gmail: "sithuminiprathiba@gmail.com",
-  gitlab: "https://gitlab.com/sithuminiprathiba",
-  facebook: "https://www.facebook.com/PrathibhaSithumini",
-  stackoverflow: "https://stackoverflow.com/users/16870507/prathibha",
-  instagram: "https://www.instagram.com/prathibhasithumini/",
-  // https://developers.google.com/profile/u/prathibhasithumini_dev
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  socialMediaData: [
+    {
+      socialMediaName: "GitHub",
+      socialLink: "https://github.com/PrathibhaSithu",
+      fontAwesomeName: "fab fa-github"
+    },
+    {
+      socialMediaName: "LinkedIn",
+      socialLink: "https://www.linkedin.com/in/prathisithumini",
+      fontAwesomeName: "fab fa-linkedin-in"
+    },
+    {
+      socialMediaName: "Gmail",
+      socialLink: "sithuminiprathiba@gmail.com",
+      fontAwesomeName: "fas fa-envelope"
+    },
+    {
+      socialMediaName: "GitLab",
+      socialLink: "https://gitlab.com/sithuminiprathiba",
+      fontAwesomeName: "fab fa-gitlab"
+    },
+    {
+      socialMediaName: "Stack Overflow",
+      socialLink: "https://stackoverflow.com/users/16870507/prathibha",
+      fontAwesomeName: "fab fa-stack-overflow"
+    },
+    {
+      socialMediaName: "Facebook",
+      socialLink: "https://www.facebook.com/PrathibhaSithumini",
+      fontAwesomeName: "fab fa-facebook-f"
+    },
+    {
+      socialMediaName: "Instagram",
+      socialLink: "https://www.instagram.com/prathibhasithumini/",
+      fontAwesomeName: "fab fa-instagram"
+    },
+    // {
+    //   socialMediaName: "Google Developer",
+    //   socialLink: "https://developers.google.com/profile/u/prathibhasithumini_dev",
+    //   fontAwesomeName: ""
+    // },
+  ],  
+  display: true 
 };
-
-const icons = [
-    { key: "github", icon: "fab fa-github" },
-    { key: "linkedin", icon: "fab fa-linkedin-in" },
-    { key: "gmail", icon: "fas fa-envelope", email: true },
-    { key: "gitlab", icon: "fab fa-gitlab" },
-    { key: "facebook", icon: "fab fa-facebook-f" },
-    { key: "instagram", icon: "fab fa-instagram" },
-    { key: "twitter", icon: "fab fa-twitter" },
-    { key: "medium", icon: "fab fa-medium" },
-    { key: "stackoverflow", icon: "fab fa-stack-overflow" },
-    { key: "kaggle", icon: "fab fa-kaggle" },
-  ];
 
 // Skills Section
 
@@ -85,9 +106,6 @@ const skillsSection = {
       "⚡ Design and develop static websites"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -413,7 +431,6 @@ export {
   illustration,
   greeting,
   socialMediaLinks,
-  icons,
   splashScreen,
   skillsSection,
   educationInfo,
