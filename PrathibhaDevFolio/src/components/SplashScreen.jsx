@@ -36,7 +36,7 @@ export default function Splash(){
             </div>
 
             {/* Signature Name */}
-            <p className="mt-8 text-6xl namefont text-white tracking-wide">
+            <p className="mt-8 text-6xl splashfont text-white tracking-wide">
                 Prathibha Sithumini
             </p>
 

@@ -15,6 +15,8 @@ import miniport from "./assets/images/projects/miniport.png";
 import awsCert from "./assets/images/aws.jpg"; 
 import mongodbCert from "./assets/images/mongodb.jpg"; 
 
+import animatedSplash from "./assets/lottie/Work at home.json";
+
 // Splash Screen
 
 const splashScreen = {
@@ -32,6 +34,7 @@ const illustration = {
 const greeting = {
   username: "Prathibha Sithumini",
   title: "Hi all, I'm Prathibha",
+  animated: animatedSplash,
   subTitle: emoji(
     "Dedicated Frontend Developer skilled in React.js, Vue.js, HTML, CSS, and Tailwind CSS, experienced in microservices architecture. AWS & Azure certified, passionate about performance, problem-solving, and creating seamless, scalable UI/UX experiences."
   ),
@@ -54,6 +57,19 @@ const socialMediaLinks = {
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
+
+const icons = [
+    { key: "github", icon: "fab fa-github" },
+    { key: "linkedin", icon: "fab fa-linkedin-in" },
+    { key: "gmail", icon: "fas fa-envelope", email: true },
+    { key: "gitlab", icon: "fab fa-gitlab" },
+    { key: "facebook", icon: "fab fa-facebook-f" },
+    { key: "instagram", icon: "fab fa-instagram" },
+    { key: "twitter", icon: "fab fa-twitter" },
+    { key: "medium", icon: "fab fa-medium" },
+    { key: "stackoverflow", icon: "fab fa-stack-overflow" },
+    { key: "kaggle", icon: "fab fa-kaggle" },
+  ];
 
 // Skills Section
 
@@ -231,27 +247,6 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: false,
-  experience: [
-    {
-      Stack: "Frontend Development", 
-      progressPercentage: "90%" 
-    },
-    {
-      Stack: "UI UX Designing",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -406,6 +401,11 @@ const contactInfo = {
   email_address: "sithuminiprathiba@gmail.com"
 };
 
+export const viewSkills = true;
+export const viewExperience = true;
+export const viewProjects = true;
+export const viewResume = true;
+
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -413,14 +413,15 @@ export {
   illustration,
   greeting,
   socialMediaLinks,
+  icons,
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   bigProjects,
   achievementSection,
   contactInfo,
   isHireable,
   resumeSection
+  
 };
