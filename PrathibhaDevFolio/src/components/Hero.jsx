@@ -13,7 +13,7 @@ export default function Hero(){
                 <p className="mt-4 text-slate-300">{greeting?.subTitle}</p>
                 <div className="mt-6 flex items-center gap-4">
                     {greeting?.resumeLink && (
-                        <a href={greeting.resumeLink} target="_blank" rel="noreferrer" className="px-4 py-2 rounded-md bg-gradient-to-r from-accent to-accent2 text-white">Resume</a>
+                        <a href={greeting.resumeLink} target="_blank" rel="noreferrer" className="px-4 py-2 rounded-md bg-gradient-to-r from-[#00aaff] to-[#ff7a59] text-white">Resume</a>
                     )}
                     {socialMediaLinks?.github && (
                         <a href={socialMediaLinks.github} target="_blank" rel="noreferrer" className="text-sm text-slate-300">GitHub</a>

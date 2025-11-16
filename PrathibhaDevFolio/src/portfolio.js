@@ -1,5 +1,19 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/Welcome Animation.json"; 
+import itmd from "./assets/images/itmd.png";
+import sliituni from "./assets/images/sliit.png";
+import vtaLogo from "./assets/images/vta.png"; 
+import sjbLogo from "./assets/images/sjb.jpg"; 
+import odysseyHolidayz from "./assets/images/projects/odysseyholidayz.png"; 
+import hems from "./assets/images/projects/hems.jpg"; 
+import cums from "./assets/images/projects/cums.png"; 
+import bbh from "./assets/images/projects/bbh.jpg"; 
+import ecoclean from "./assets/images/projects/ecoclean.jpg"; 
+import voyagelk from "./assets/images/projects/voyagelk.jpg"; 
+import petshop from "./assets/images/projects/petshop.png"; 
+import miniport from "./assets/images/projects/miniport.png"; 
+import awsCert from "./assets/images/aws.jpg"; 
+import mongodbCert from "./assets/images/mongodb.jpg"; 
 
 // Splash Screen
 
@@ -164,7 +178,7 @@ const workExperiences = {
     {
       role: "Frontend Developer",
       company: "ITMD - Finance Ministry Sri Lanka",
-      companylogo: require("./assets/images/itmd.png"),
+      companylogo: itmd,
       date: "August 2024 - August 2025",
       desc: "Develop responsive front-end applications using Vue.js and designing user-friendly interfaces in Figma, manual testing to ensure functionality, usability, and quality across the applications",
       descBullets: [
@@ -184,7 +198,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "SLIIT University",
-      logo: require("./assets/images/sliit.png"),
+      logo: sliituni,
       subHeader: "BSc (Hons) in Information Technology",
       duration: "June 2021 - September 2025",
       desc: "Specializing in Information Technology",
@@ -195,7 +209,7 @@ const educationInfo = {
     },
     {
       schoolName: "Vocational Training Authority of Sri Lanka",
-      logo: require("./assets/images/vta.png"),
+      logo: vtaLogo,
       subHeader: "Information Technology Diploma",
       duration: "January 2020 - September 2022",
       desc: "Level 5 Diploma in Information Technology",
@@ -205,7 +219,7 @@ const educationInfo = {
     },
     {
       schoolName: "St.Joseph's Girls Collage - Kegalle",
-      logo: require("./assets/images/sjb.jpg"),
+      logo: sjbLogo,
       subHeader: "Engineering Technology",
       duration: "August 2019",
       desc: "Engineering Technology, Science for Technology, Information Technology",
@@ -245,7 +259,7 @@ const bigProjects = {
   subtitle: "Some projects I have done in advance with 💻 & ❤️",
   projects: [
     {
-      image: require("./assets/images/projects/odysseyholidayz.png"),
+      image: odysseyHolidayz, // Replaced require() with import
       projectName: "Odyssey Holidayz ",
       projectDesc: "Odyssey Holidayz is a travel website designed and developed to showcase tour packages, destinations, and travel experiences across Sri Lanka. The site features a user-friendly interface, responsive design, and visually rich galleries, allowing visitors to explore customized tours, adventures, and travel services with ease and seamless navigation.",
       footerLink: [
@@ -253,11 +267,11 @@ const bigProjects = {
           name: "Ongoing Project",
           url: ""
         }
-        //  you can add extra buttons here.
+        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/projects/hems.jpg"),
+      image: hems, // Replaced require() with import
       projectName: "Home Energy Management System",
       projectDesc: "For my final year research project, I developed an AI and IoT-based smart management system integrating solar energy, fire and gas detection, water, and electricity management. The project focused on automation and efficiency, utilizing ReactJS for the interface and emphasizing teamwork, version control, and project management through GitHub and effective collaboration.",
       footerLink: [
@@ -268,17 +282,17 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/cums.png"),
+      image: cums, // Replaced require() with import
       projectName: "Common User Management System",
       projectDesc: "developed a Common User Management System with an admin panel for the Finance Ministry, enabling efficient management of user roles and permissions. The project was built using Vue.js and Tailwind CSS, ensuring a responsive and modern interface. I also performed manual testing and maintained version control using GitHub.",
     },
     {
-      image: require("./assets/images/projects/bbh.jpg"),
+      image: bbh, // Replaced require() with import
       projectName: "Benthota Baker Website Automation Testing",
       projectDesc: "I worked as a quality assurance engineer on the Bentota Baker Website, a bakery management platform developed using the MERN Stack. The project involved both manual and automated testing using Selenium to ensure functionality and reliability. I utilized GitHub for version control and collaboration, focusing on improving website performance, accuracy, and user experience.",
     },
     {
-      image: require("./assets/images/projects/ecoclean.jpg"),
+      image: ecoclean, // Replaced require() with import
       projectName: "Eco Clean Mobile Application",
       projectDesc: "I developed a mobile-based Garbage Management System featuring multi-user login and admin-level control to streamline waste collection and monitoring. The system integrated IoT devices with Arduino for real-time data tracking and used Firebase for backend management. Built with Flutter, the project emphasized smart automation and efficient city waste management.",
       footerLink: [
@@ -289,7 +303,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/voyagelk.jpg"),
+      image: voyagelk, // Replaced require() with import
       projectName: "Voyage LK Mobile Application",
       projectDesc: "I developed a mobile application that helps travelers discover travel destinations and accommodations while enabling hotel owners to promote their properties. Built using Kotlin and Firebase, the app offers real-time data management and seamless user experiences. GitHub was used for version control, enhancing collaboration and project organization.",
       footerLink: [
@@ -300,7 +314,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/petshop.png"),
+      image: petshop, // Replaced require() with import
       projectName: "Online Pet Clinic and Pet Accessory Shop Management",
       projectDesc: "I developed a fully functional full-stack web application for a pet clinic in Dehiwala, enabling appointment management, pet records, and service tracking. Leveraging the MERN stack, I collaborated with a team, participated in requirement gathering, and utilized GitHub for version control. The project enhanced my full-stack development and teamwork skills.",
       footerLink: [
@@ -311,7 +325,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/projects/miniport.png"),
+      image: miniport, // Replaced require() with import
       projectName: "Responsive Portfolio Website Template",
       projectDesc: "Designed a modern, responsive web page using HTML, CSS, and JavaScript to showcase personal and professional achievements, featuring a clean, professional layout that highlights skills, projects, and accomplishments effectively.",
       footerLink: [
@@ -337,7 +351,7 @@ const achievementSection = {
       title: "AWS Academy Cloud Foundations",
       subtitle:
         "Completed foundational training in AWS cloud concepts, core services, architecture, and best practices.",
-      image: require("./assets/images/aws.jpg"),
+      image: awsCert,
       imageAlt: "AWS Academy Cloud Foundations Logo",
       footerLink: [
         {
@@ -350,7 +364,7 @@ const achievementSection = {
       title: "MongoDB Certified",
       subtitle:
         "Demonstrated proficiency in building and maintaining applications using MongoDB, including data modeling, queries, aggregation, and performance optimization.",
-      image: require("./assets/images/mongodb.jpg"),
+      image: mongodbCert,
       imageAlt: "MongoDB Logo",
       footerLink: [
         {
@@ -363,7 +377,7 @@ const achievementSection = {
     {
       title: "MongoDB Transactions",
       subtitle: "Gained practical knowledge of implementing and managing multi-document transactions in MongoDB to ensure data consistency and reliability in complex applications.",
-      image: require("./assets/images/mongodb.jpg"),
+      image: mongodbCert,
       imageAlt: "MongoDB Logo",
       footerLink: [
         {
@@ -381,7 +395,6 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 

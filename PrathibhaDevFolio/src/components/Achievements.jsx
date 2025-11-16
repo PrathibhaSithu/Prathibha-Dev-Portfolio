@@ -17,7 +17,7 @@ export default function Achievements(){
                         {a.image && <img src={a.image} alt={a.title} className="w-full h-32 object-contain" />}
                         <h4 className="mt-3 font-semibold">{a.title}</h4>
                         <p className="text-slate-300 mt-2">{a.subtitle}</p>
-                        {a.footerLink?.map((fl,i)=> <a key={i} className="text-accent inline-block mt-3" href={fl.url}>{fl.name}</a>)}
+                        {a.footerLink?.map((fl,i)=> <a key={i} className="text-[#00aaff] inline-block mt-3" href={fl.url}>{fl.name}</a>)}
                     </div>
                   ))}
                 </div>

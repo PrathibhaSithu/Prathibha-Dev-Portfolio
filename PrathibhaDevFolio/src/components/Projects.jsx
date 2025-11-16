@@ -18,7 +18,7 @@ export default function Projects(){
                                     <h4 className="font-semibold">{p.projectName}</h4>
                                     <p className="text-slate-300 mt-2">{p.projectDesc}</p>
                                     {p.footerLink?.map((fl,i)=> (
-                                        <a key={i} href={fl.url || '#'} target="_blank" rel="noreferrer" className="inline-block mt-3 text-sm text-accent">{fl.name}</a>
+                                        <a key={i} href={fl.url || '#'} target="_blank" rel="noreferrer" className="inline-block mt-3 text-sm text-[#00aaff]">{fl.name}</a>
                                     ))}
                                 </div>
                             </div>
