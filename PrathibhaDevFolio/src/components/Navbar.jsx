@@ -63,7 +63,7 @@ export default function Navbar({ theme, setTheme }) {
                 target="_blank"
                 rel="noreferrer"
                 // Apply Uiverse Button Styles to the <a> tag
-                className="cursor-pointer bg-gradient-to-b from-indigo-500 to-indigo-600 shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-6 py-3 rounded-xl border-[1px] border-slate-500 text-white font-medium group"
+                className="cursor-pointer btn-color shadow-[0px_4px_32px_0_rgba(99,102,241,.70)] px-6 py-3 rounded-xl btn-border border-slate-500 text-white font-medium group"
               >
                 <div className="relative overflow-hidden">
                   {/* First Text: Slides up and out */}
