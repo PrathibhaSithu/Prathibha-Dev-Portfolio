@@ -9,7 +9,7 @@ export default function Work(){
     return (
         <section className="mt-20" id="experience" ref={ref}>
             <div className="reveal">
-                <h3 className="uppercase text-5xl text-[#f0f0f0]">Experience</h3>
+                <h3 className="headerfont text-[#f0f0f0]s text-5xl">Experience</h3>
                 <div className="mt-4 space-y-4">
                     {workExperiences.experience.map((e,idx)=> (
                     <div key={idx} className="card p-4 flex gap-4 items-start">

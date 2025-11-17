@@ -6,6 +6,12 @@
     font-family: "Pacifico", cursive;
 }
 
+.headerfont{
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Poppins', cursive;
+    font-weight: bold;
+}
+
 .btn-color{
     background: linear-gradient(to bottom, #6366f1, #4f46e5);
     color: white;

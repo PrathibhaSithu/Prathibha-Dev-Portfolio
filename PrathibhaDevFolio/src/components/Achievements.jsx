@@ -1,6 +1,6 @@
-import React from 'react'
 import useReveal from '../utils/useReveal'
 import { achievementSection } from '../portfolio'
+import '../styles/styles.css'
 
 
 export default function Achievements(){
@@ -9,7 +9,7 @@ export default function Achievements(){
     return (
         <section className="mt-12" ref={ref}>
             <div className="reveal">
-                <h3 className="uppercase text-sm text-slate-400">{achievementSection.title}</h3>
+                <h3 className="headerfont text-5xl text-[#f0f0f0]">{achievementSection.title}</h3>
                 <p className="text-slate-300 mt-1">{achievementSection.subtitle}</p>
                 <div className="mt-4 grid md:grid-cols-3 gap-4">
                     {achievementSection.achievementsCards.map((a,idx)=> (

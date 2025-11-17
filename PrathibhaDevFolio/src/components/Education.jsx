@@ -1,5 +1,6 @@
 import useReveal from '../utils/useReveal'
 import { educationInfo } from '../portfolio'
+import '../styles/styles.css'
 
 
 export default function Education(){
@@ -8,7 +9,7 @@ export default function Education(){
     return (
         <section className="mt-5" id='education' ref={ref}>
             <div className="reveal">
-                <h3 className="uppercase text-5xl text-[#f0f0f0]">Education</h3>
+                <h3 className=" text-5xl text-[#f0f0f0] headerfont">Education</h3>
                 <div className="mt-4 space-y-4">
                     {educationInfo.schools.map((s,idx)=> (
                         <div key={idx} className="card p-4 flex gap-4 items-start">

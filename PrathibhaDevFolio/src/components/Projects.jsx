@@ -1,5 +1,6 @@
 import useReveal from '../utils/useReveal'
 import { bigProjects } from '../portfolio'
+import '../styles/styles.css'
 
 export default function Projects(){
     const ref = useReveal()
@@ -7,8 +8,8 @@ export default function Projects(){
     return (
         <section className="mt-12" ref={ref} id="projects">
             <div className="reveal">
-                <h3 className="uppercase text-sm text-slate-400">{bigProjects.title}</h3>
-                <p className="text-slate-300 mt-2">{bigProjects.subtitle}</p>
+                <h3 className="headerfont text-5xl text-[#f0f0f0]">{bigProjects.title}</h3>
+                <p className="text-[#f0f0f0] text-xl mt-2">{bigProjects.subtitle}</p>
                 <div className="mt-6 grid md:grid-cols-2 gap-4">
                     {bigProjects.projects.map((p,idx)=> (
                         <article key={idx} className="card p-4">

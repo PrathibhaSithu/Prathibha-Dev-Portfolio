@@ -239,7 +239,6 @@ const educationInfo = {
       duration: "June 2021 - September 2025",
       desc: "Specializing in Information Technology",
       descBullets: [
-        "GPA: 2.8",
         "Coursework: Cloud Computing principles, AWS Certificate course, Web Developments, Database Administration, Networking, Quality Assurance Principles, Manual and Automation Testing, SE",
       ]
     },
