@@ -1,4 +1,4 @@
-import { greeting, socialMediaLinks, contactInfo } from '../portfolio';
+import {greeting, socialMediaLinks, contactInfo } from '../portfolio';
 import SocialMedia from './SocialMedia';
 import useReveal from '../utils/useReveal';
 import { Player } from '@lottiefiles/react-lottie-player';
@@ -8,13 +8,13 @@ export default function Contact() {
   const ref = useReveal();
 
   return (
-    <section className="grid md:grid-cols-2 gap-4 items-center py-1" ref={ref} id="hero">
+    <section className="grid md:grid-cols-2 gap-4 items-center py-1" ref={ref} id="contact">
       {/* Left Content */}
       <div className="reveal flex flex-col justify-center">
-        <p className="uppercase text-sm text-slate-400">{greeting?.title}</p>
-        <h1 className="text-5xl font-bold mt-2">{greeting?.username}</h1>
-        <h2 className="text-2xl text-slate-300 mt-2">{greeting?.greet}</h2>
-        <p className="mt-4 text-slate-300">{greeting?.subTitle}</p>
+        <p className="text-5xl text-[#f0f0f0] headerfont">{contactInfo?.title}</p>
+        <h1 className="text-5xl font-bold mt-2">{contactInfo?.username}</h1>
+        <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.greet}</h2>
+        <p className="mt-4 text-slate-300">{contactInfo?.subTitle}</p>
 
         {/* Social Media Icons */}
         <div className="mt-6">
@@ -49,11 +49,11 @@ export default function Contact() {
       {/* Right Content: Animated Avatar */}
       <div className="reveal flex justify-center">
         <div className="w-full overflow-hidden flex items-center justify-center">
-          {greeting?.animated ? (
+          {contactInfo?.animated ? (
             <Player
               autoplay
               loop
-              src={greeting.animated}
+              src={contactInfo.animated}
               style={{ height: '100%', width: '100%' }}
             />
           ) : (
