@@ -8,7 +8,7 @@ export default function Hero() {
   const ref = useReveal();
 
   return (
-    <section className="grid md:grid-cols-2 gap-4 items-center py-1" ref={ref}>
+    <section className="grid md:grid-cols-2 gap-4 items-center py-1" ref={ref} id='hero'>
       {/* Left Content */}
       <div className="reveal flex flex-col justify-center">
         <p className="uppercase text-sm text-slate-400">{greeting?.title}</p>
