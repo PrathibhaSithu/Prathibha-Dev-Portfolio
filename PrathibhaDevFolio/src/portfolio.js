@@ -101,11 +101,11 @@ const skillsSection = {
   subTitle: "FRONTEND DEVELOPER WHO WANTS TO DEVELOP AWESOME WEB APPS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Develop responsive websites with best practices"),
+    emoji("Develop responsive websites with best practices"),
     emoji(
-      "⚡ Design and develop static websites"
+      "Design and develop static websites"
     )
   ],
 

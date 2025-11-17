@@ -52,7 +52,7 @@ export default function AboutMe() {
           </div>
 
           {/* Bullet Skills */}
-          <div className="mt-8 space-y-1">
+          <div className="mt-8 space-y-2">
             {skillsSection.skills.map((line, idx) => (
               <p key={idx} className="text-slate-300 text-base">
                 {line}
