@@ -423,7 +423,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me "),
   subtitle:
     "Let's craft smooth, responsive, and eye-catching designs drop me a line!",
   number: "+94 077 923 3384",

@@ -11,9 +11,10 @@ export default function Contact() {
     <section className="grid md:grid-cols-2 gap-4 items-center py-1" ref={ref} id="contact">
       {/* Left Content */}
       <div className="reveal flex flex-col justify-center">
-        <p className="text-5xl text-[#f0f0f0] headerfont">{contactInfo?.title}</p>
-        <h1 className="text-5xl font-bold mt-2">{contactInfo?.username}</h1>
-        <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.greet}</h2>
+        <h1 className="text-5xl text-[#f0f0f0] headerfont">{contactInfo?.title}</h1>
+        <h1 className="text-xl mt-10">{contactInfo?.subtitle}</h1>
+        <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.number}</h2>
+        <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.email_address}</h2>
         <p className="mt-4 text-slate-300">{contactInfo?.subTitle}</p>
 
         {/* Social Media Icons */}
