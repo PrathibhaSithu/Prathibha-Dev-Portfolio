@@ -26,6 +26,9 @@ export default function Contact() {
                 </svg>
             </div>
 
+            <span className="absolute inset-x-0 top-2 text-xs text-slate-500">
+            ContactMe.tsx
+        </span>
         </div>
 
         {/* Contact Content */}
