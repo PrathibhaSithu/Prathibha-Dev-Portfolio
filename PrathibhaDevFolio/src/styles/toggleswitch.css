@@ -22,12 +22,12 @@
 
 /* Smaller toggle version */
 .theme-switch {
-  --toggle-size: 20px; /* overall font size for scaling elements */
-  --container-width: 4em; /* width of the track */
-  --container-height: 1.75em; /* height of the track */
-  --container-radius: 3.5em; /* rounded corners */
-  --circle-container-diameter: 2.5em; /* size of the moving circle */
-  --sun-moon-diameter: 1.5em; /* size of sun/moon inside circle */
+  --toggle-size: 20px;
+  --container-width: 4em;
+  --container-height: 1.75em;
+  --container-radius: 3.5em;
+  --circle-container-diameter: 2.5em;
+  --sun-moon-diameter: 1.5em;
   --circle-container-offset: calc((var(--circle-container-diameter) - var(--container-height)) / 2 * -1);
   --container-light-bg: #3d7eae;
   --container-night-bg: #1d1f2c;
