@@ -1,25 +1,23 @@
-import React from "react";
 import { skillsSection } from "../portfolio";
 import myImage from "../assets/images/mypic.jpeg";
 
-// 20 beautiful circle colors
 const colors = [
-   "#34495E"
+  "#34495E"
 ];
 
 export default function AboutMe() {
   if (!skillsSection?.display) return null;
 
   return (
-    <section className="px-6 md:px-16 py-16" id="about">
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
+    <section className="py-16" id="about">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-20">
 
         {/* LEFT – Your image */}
         <div className="md:w-1/3 flex justify-center">
           <img
             src={myImage}
             alt="About Me"
-            className="w-64 h-64 md:w-72 md:h-72 rounded-2xl shadow-lg object-cover"
+            className="w-200 h-140 md:w-200 md:h-140 rounded-3xl shadow-lg object-cover"
           />
         </div>
 
