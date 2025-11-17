@@ -40,12 +40,6 @@ export default function Navbar({ theme, setTheme }) {
             </a>
           </li>
 
-          {/* ⭐ SINGLE Toggle Switch */}
-          <li>
-            <ToggleSwitch theme={theme} setTheme={setTheme} />
-
-          </li>
-
           <li className="ml-4 flex items-center gap-4">
             {greeting?.resumeLink && (
               <a
@@ -71,6 +65,12 @@ export default function Navbar({ theme, setTheme }) {
                 </div>
               </a>
             )}
+          </li>
+
+          {/* ⭐ SINGLE Toggle Switch */}
+          <li>
+            <ToggleSwitch theme={theme} setTheme={setTheme} />
+
           </li>
         </ul>
       </div>
