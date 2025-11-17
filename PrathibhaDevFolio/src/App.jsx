@@ -14,7 +14,6 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 import { splashScreen } from './portfolio'
-import ToggleSwitch from './custombuttons/ToggleSwitch'
 // import BackToTopButton from './custombuttons/BackToTopButton'
 
 
@@ -53,8 +52,6 @@ return (
     <Projects />
     <Achievements />
     <Contact />
-    
-    <ToggleSwitch/>
   </main>
     <Footer />
     {/* <BackToTopButton /> */}
