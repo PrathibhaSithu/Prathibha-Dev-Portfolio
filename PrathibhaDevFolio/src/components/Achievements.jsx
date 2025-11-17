@@ -1,6 +1,6 @@
 import useReveal from '../utils/useReveal'
 import { achievementSection } from '../portfolio'
-import AnimatedButton from '../custamizebuttons/AnimatedButton'
+import AnimatedButton from '../custombuttons/AnimatedButton'
 import '../styles/styles.css'
 
 export default function Achievements() {

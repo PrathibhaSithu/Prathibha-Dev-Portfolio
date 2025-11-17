@@ -1,6 +1,6 @@
 import useReveal from '../utils/useReveal'
 import { bigProjects } from '../portfolio'
-import ProjectButton from '../custamizebuttons/GithubButton'
+import ProjectButton from '../custombuttons/GithubButton'
 import '../styles/styles.css'
 
 export default function Projects() {
