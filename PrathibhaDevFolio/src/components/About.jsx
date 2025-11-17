@@ -9,7 +9,7 @@ export default function AboutMe() {
   if (!skillsSection?.display) return null;
 
   return (
-    <section className="py-16" id="about">
+    <section className="pt-16" id="about">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-20">
 
         {/* LEFT – Your image */}
