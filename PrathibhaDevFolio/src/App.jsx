@@ -4,7 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Splash from './components/SplashScreen'
 import Hero from './components/Hero'
-import Skills from './components/Skills'
+// import Skills from './components/Skills'
 import Work from './components/WorkExperience'
 import Education from './components/Education'
 import Projects from './components/Projects'
@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 import { splashScreen } from './portfolio'
+import AboutMe from './components/About'
 
 
 export default function App(){
@@ -43,7 +44,7 @@ return (
   
   <main className="max-w-5xl mx-auto py-8">
     <Hero />
-    <Skills />
+    <AboutMe />
     <Work />
     <Education />
     <Projects />

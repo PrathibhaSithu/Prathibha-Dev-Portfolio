@@ -7,7 +7,7 @@ export default function Work(){
     const ref = useReveal()
     if(!workExperiences?.display) return null
     return (
-        <section className="mt-12" ref={ref}>
+        <section className="mt-20" id="experience" ref={ref}>
             <div className="reveal">
                 <h3 className="uppercase text-sm text-slate-400">Experience</h3>
                 <div className="mt-4 space-y-4">

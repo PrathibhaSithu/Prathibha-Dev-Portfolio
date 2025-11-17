@@ -15,6 +15,7 @@ import miniport from "./assets/images/projects/miniport.png";
 import awsCert from "./assets/images/aws.jpg"; 
 import mongodbCert from "./assets/images/mongodb.jpg"; 
 
+import myImage from "./assets/images/mypic.jpeg";
 import animatedSplash from "./assets/lottie/Work at home.json";
 
 // Splash Screen
@@ -96,6 +97,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
+  image: myImage,
   subTitle: "FRONTEND DEVELOPER WHO WANTS TO DEVELOP AWESOME WEB APPS",
   skills: [
     emoji(
@@ -221,7 +223,7 @@ const workExperiences = {
         "Manual Testing",
         "Connect Front-end and backend using REST API"
       ]
-    }
+    },
   ]
 };
 
@@ -349,7 +351,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Achievement Section
@@ -400,7 +402,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Resume Section
@@ -408,7 +410,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 const contactInfo = {
@@ -419,13 +421,8 @@ const contactInfo = {
   email_address: "sithuminiprathiba@gmail.com"
 };
 
-export const viewSkills = true;
-export const viewExperience = true;
-export const viewProjects = true;
-export const viewResume = true;
 
-
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; 
 
 export {
   illustration,

@@ -2,10 +2,6 @@
 import ToggleSwitch from "./ToggleSwitch";
 import '../styles/styles.css'
 import {
-  viewSkills,
-  viewExperience,
-  viewProjects,
-  viewResume,
   greeting,
 } from "../portfolio";
 
@@ -20,29 +16,23 @@ export default function Navbar({ theme, setTheme }) {
 
         {/* ⭐ Menu */}
         <ul className="flex items-center gap-8 text-base font-medium text-slate-200">
-          {viewSkills && (
             <li>
-              <a href="#skills" className="hover:text-white transition">
+              <a href="#aboutme" className="hover:text-white transition">
                 About Me
               </a>
             </li>
-          )}
 
-          {viewExperience && (
             <li>
               <a href="#experience" className="hover:text-white transition">
                 Experiences
               </a>
             </li>
-          )}
-
-          {viewProjects && (
+          
             <li>
               <a href="#projects" className="hover:text-white transition">
                 Projects
               </a>
             </li>
-          )}
 
           <li>
             <a href="#contact" className="hover:text-white transition">
