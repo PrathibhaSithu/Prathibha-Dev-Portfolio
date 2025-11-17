@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Splash from './components/SplashScreen'
 import Hero from './components/Hero'
+import AboutMe from './components/About'
 // import Skills from './components/Skills'
 import Work from './components/WorkExperience'
 import Education from './components/Education'
@@ -13,7 +14,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 import { splashScreen } from './portfolio'
-import AboutMe from './components/About'
+
 
 
 export default function App(){

@@ -24,7 +24,7 @@ export default function AboutMe() {
         {/* RIGHT – Text + Skills */}
         <div className="md:w-2/3">
           {/* Title */}
-          <h2 className="text-3xl font-bold tracking-wide text-white">
+          <h2 className="text-4xl font-bold tracking-wide text-white">
             {skillsSection.title}
           </h2>
 
