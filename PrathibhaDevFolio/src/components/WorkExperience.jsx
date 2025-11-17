@@ -29,6 +29,7 @@ export default function Work(){
                     </div>
                 ))}
                 </div>
+                <hr className="border-[#f0f0f0] mt-20" />
             </div>
         </section>
     )
