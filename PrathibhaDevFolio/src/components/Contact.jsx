@@ -9,13 +9,40 @@ export default function Contact() {
 
   return (
     <section className="grid md:grid-cols-2 gap-4 items-center py-1" ref={ref} id="contact">
-      {/* Left Content */}
-      <div className="reveal flex flex-col justify-center">
+    <div className="reveal flex justify-center">
+    <div className="relative rounded-lg bg-slate-900 p-4 w-full">
+
+        {/* Top Window Header */}
+        <div className="relative flex text-center">
+            <div className="flex pl-3.5 pt-3">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.5 mr-1.5 h-3 w-3 text-red-500">
+                    <circle r="12" cy="12" cx="12"></circle>
+                </svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.75 mr-1.5 h-3 w-3 text-yellow-500">
+                    <circle r="12" cy="12" cx="12"></circle>
+                </svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.75 mr-1.5 h-3 w-3 text-green-500">
+                    <circle r="12" cy="12" cx="12"></circle>
+                </svg>
+            </div>
+
+        </div>
+
+        {/* Contact Content */}
+        <div className="mt-5 space-y-2 px-5 pb-6">
         <h1 className="text-5xl text-[#f0f0f0] headerfont">{contactInfo?.title}</h1>
-        <h1 className="text-xl mt-10">{contactInfo?.subtitle}</h1>
+
+        <h1 className="text-xl mt-4 text-violet-300">{contactInfo?.subtitle}</h1>
+
         <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.number}</h2>
-        <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.email_address}</h2>
-        <p className="mt-4 text-slate-300">{contactInfo?.subTitle}</p>
+
+        <h2 className="text-2xl text-slate-300 mt-2">
+            {contactInfo?.email_address}
+        </h2>
+
+        <p className="mt-3 text-slate-400">{contactInfo?.subTitle}</p>
+        </div>
+  
 
         {/* Social Media Icons */}
         <div className="mt-6">
@@ -45,6 +72,7 @@ export default function Contact() {
             </a>
             )}        
         </div>
+        </div>
       </div>
 
       {/* Right Content: Animated Avatar */}
@@ -62,6 +90,7 @@ export default function Contact() {
           )}
         </div>
       </div>
+      <hr className="border-[#f0f0f0] mt-10 border-2" />
     </section>
   );
 }
