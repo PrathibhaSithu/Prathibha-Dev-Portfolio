@@ -27,23 +27,23 @@ export default function Contact() {
             </div>
 
             <span className="absolute inset-x-0 top-2 text-xs text-slate-500">
-            ContactMe.tsx
-        </span>
+                ContactMe.tsx
+            </span>
         </div>
 
         {/* Contact Content */}
         <div className="mt-5 space-y-2 px-5 pb-6">
-        <h1 className="text-5xl text-[#f0f0f0] headerfont">{contactInfo?.title}</h1>
+            <h1 className="text-5xl text-[#f0f0f0] headerfont">{contactInfo?.title}</h1>
 
-        <h1 className="text-xl mt-4 text-violet-300">{contactInfo?.subtitle}</h1>
+            <h1 className="text-xl mt-4 text-violet-300">{contactInfo?.subtitle}</h1>
 
-        <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.number}</h2>
+            <h2 className="text-2xl text-slate-300 mt-2">{contactInfo?.number}</h2>
 
-        <h2 className="text-2xl text-slate-300 mt-2">
-            {contactInfo?.email_address}
-        </h2>
+            <h2 className="text-2xl text-slate-300 mt-2">
+                {contactInfo?.email_address}
+            </h2>
 
-        <p className="mt-3 text-slate-400">{contactInfo?.subTitle}</p>
+            <p className="mt-3 text-slate-400">{contactInfo?.subTitle}</p>
         </div>
   
 
@@ -95,6 +95,7 @@ export default function Contact() {
       </div>
       <hr className="border-[#f0f0f0] mt-10 border-2" />
     </section>
+    
   );
 }
 
