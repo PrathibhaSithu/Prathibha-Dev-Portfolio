@@ -17,6 +17,7 @@ import mongodbCert from "./assets/images/mongodb.jpg";
 
 import myImage from "./assets/images/mypic.jpeg";
 import animatedSplash from "./assets/lottie/Work at home.json";
+import contactSplash from "./assets/lottie/Live chatbot.json";
 
 // Splash Screen
 
@@ -426,7 +427,8 @@ const contactInfo = {
   subtitle:
     "Let's craft smooth, responsive, and eye-catching designs drop me a line!",
   number: "+94 077 923 3384",
-  email_address: "sithuminiprathiba@gmail.com"
+  email_address: "sithuminiprathiba@gmail.com",
+  animated: contactSplash
 };
 
 
