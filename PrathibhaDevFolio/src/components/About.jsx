@@ -38,23 +38,23 @@ export default function AboutMe() {
             {skillsSection.softwareSkills.map((sk, i) => (
               <div
                 key={i}
-                className="w-15 h-15 rounded-full flex flex-col justify-center items-center shadow-md hover:scale-110 transition-transform duration-300 text-white"
+                className="w-15 h-15 rounded-full flex flex-col justify-center items-center shadow-md hover:scale-150 transition-transform duration-300 text-white"
                 style={{ backgroundColor: colors[i % colors.length] }}
                 title={sk.skillName}
               >
                 {sk.fontAwesomeClassname ? (
                   <i className={`${sk.fontAwesomeClassname} text-3xl`}></i>
                 ) : (
-                  <span className="text-sm font-semibold">{sk.skillName}</span>
+                  <span className="text-m font-semibold">{sk.skillName}</span>
                 )}
               </div>
             ))}
           </div>
 
           {/* Bullet Skills */}
-          <div className="mt-8 space-y-2">
+          <div className="mt-8 space-y-1">
             {skillsSection.skills.map((line, idx) => (
-              <p key={idx} className="text-slate-300 text-base leading-relaxed">
+              <p key={idx} className="text-slate-300 text-base">
                 {line}
               </p>
             ))}
