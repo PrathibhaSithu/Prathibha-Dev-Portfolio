@@ -7,9 +7,9 @@ export default function Education(){
     const ref = useReveal()
     if(!educationInfo?.display) return null
     return (
-        <section className="mt-12" ref={ref}>
+        <section className="mt-20" id='education' ref={ref}>
             <div className="reveal">
-                <h3 className="uppercase text-sm text-slate-400">Education</h3>
+                <h3 className="uppercase text-5xl text-[#f0f0f0]">Education</h3>
                 <div className="mt-4 space-y-4">
                     {educationInfo.schools.map((s,idx)=> (
                         <div key={idx} className="card p-4 flex gap-4 items-start">
@@ -23,6 +23,7 @@ export default function Education(){
                         </div>
                     ))}
                 </div>
+                <hr className="border-[#f0f0f0] mt-20 mb-6" />
             </div>
         </section>
     )
