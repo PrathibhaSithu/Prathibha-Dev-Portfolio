@@ -266,26 +266,23 @@ const educationInfo = {
   ]
 };
 
-// Some big projects you have worked on
-
 const bigProjects = {
   title: "Projects",
   subtitle: "Some projects I have done in advance with 💻 & ❤️",
   projects: [
     {
-      image: odysseyHolidayz, // Replaced require() with import
+      image: odysseyHolidayz, 
       projectName: "Odyssey Holidayz ",
       projectDesc: "Odyssey Holidayz is a travel website designed and developed to showcase tour packages, destinations, and travel experiences across Sri Lanka. The site features a user-friendly interface, responsive design, and visually rich galleries, allowing visitors to explore customized tours, adventures, and travel services with ease and seamless navigation.",
       footerLink: [
         {
-          name: "Ongoing Project",
-          url: ""
+          name: "My Github",
+          url: "https://github.com/PrathibhaSithu"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: hems, // Replaced require() with import
+      image: hems, 
       projectName: "Home Energy Management System",
       projectDesc: "For my final year research project, I developed an AI and IoT-based smart management system integrating solar energy, fire and gas detection, water, and electricity management. The project focused on automation and efficiency, utilizing ReactJS for the interface and emphasizing teamwork, version control, and project management through GitHub and effective collaboration.",
       footerLink: [
@@ -296,17 +293,29 @@ const bigProjects = {
       ]
     },
     {
-      image: cums, // Replaced require() with import
+      image: cums, 
       projectName: "Common User Management System",
       projectDesc: "developed a Common User Management System with an admin panel for the Finance Ministry, enabling efficient management of user roles and permissions. The project was built using Vue.js and Tailwind CSS, ensuring a responsive and modern interface. I also performed manual testing and maintained version control using GitHub.",
+      footerLink: [
+        {
+          name: "My Github",
+          url: "https://github.com/PrathibhaSithu"
+        }
+      ]
     },
     {
-      image: bbh, // Replaced require() with import
+      image: bbh, 
       projectName: "Benthota Baker Website Automation Testing",
       projectDesc: "I worked as a quality assurance engineer on the Bentota Baker Website, a bakery management platform developed using the MERN Stack. The project involved both manual and automated testing using Selenium to ensure functionality and reliability. I utilized GitHub for version control and collaboration, focusing on improving website performance, accuracy, and user experience.",
+      footerLink: [
+        {
+          name: "My Github",
+          url: "https://github.com/PrathibhaSithu"
+        }
+      ]
     },
     {
-      image: ecoclean, // Replaced require() with import
+      image: ecoclean, 
       projectName: "Eco Clean Mobile Application",
       projectDesc: "I developed a mobile-based Garbage Management System featuring multi-user login and admin-level control to streamline waste collection and monitoring. The system integrated IoT devices with Arduino for real-time data tracking and used Firebase for backend management. Built with Flutter, the project emphasized smart automation and efficient city waste management.",
       footerLink: [
@@ -317,7 +326,7 @@ const bigProjects = {
       ]
     },
     {
-      image: voyagelk, // Replaced require() with import
+      image: voyagelk,
       projectName: "Voyage LK Mobile Application",
       projectDesc: "I developed a mobile application that helps travelers discover travel destinations and accommodations while enabling hotel owners to promote their properties. Built using Kotlin and Firebase, the app offers real-time data management and seamless user experiences. GitHub was used for version control, enhancing collaboration and project organization.",
       footerLink: [
@@ -328,7 +337,7 @@ const bigProjects = {
       ]
     },
     {
-      image: petshop, // Replaced require() with import
+      image: petshop, 
       projectName: "Online Pet Clinic and Pet Accessory Shop Management",
       projectDesc: "I developed a fully functional full-stack web application for a pet clinic in Dehiwala, enabling appointment management, pet records, and service tracking. Leveraging the MERN stack, I collaborated with a team, participated in requirement gathering, and utilized GitHub for version control. The project enhanced my full-stack development and teamwork skills.",
       footerLink: [
@@ -339,7 +348,7 @@ const bigProjects = {
       ]
     },
     {
-      image: miniport, // Replaced require() with import
+      image: miniport, 
       projectName: "Responsive Portfolio Website Template",
       projectDesc: "Designed a modern, responsive web page using HTML, CSS, and JavaScript to showcase personal and professional achievements, featuring a clean, professional layout that highlights skills, projects, and accomplishments effectively.",
       footerLink: [
