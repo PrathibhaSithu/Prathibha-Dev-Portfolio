@@ -38,7 +38,7 @@ export default function AboutMe() {
             {skillsSection.softwareSkills.map((sk, i) => (
               <div
                 key={i}
-                className="w-20 h-20 rounded-full flex flex-col justify-center items-center shadow-md hover:scale-110 transition-transform duration-300 text-white"
+                className="w-15 h-15 rounded-full flex flex-col justify-center items-center shadow-md hover:scale-110 transition-transform duration-300 text-white"
                 style={{ backgroundColor: colors[i % colors.length] }}
                 title={sk.skillName}
               >

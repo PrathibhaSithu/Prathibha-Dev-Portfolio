@@ -148,7 +148,7 @@ const skillsSection = {
     },
     {
       skillName: "Postman",
-      fontAwesomeClassname: "fas fa-paper-plane"
+      fontAwesomeClassname: "fas fa-exchange-alt"
     },
     {
       skillName: "SQL",
