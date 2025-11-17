@@ -10,7 +10,7 @@ export default function Achievements(){
         <section className="mt-12" ref={ref}>
             <div className="reveal">
                 <h3 className="headerfont text-5xl text-[#f0f0f0]">{achievementSection.title}</h3>
-                <p className="text-slate-300 mt-1">{achievementSection.subtitle}</p>
+                <p className="text-[#f0f0f0] text-m mt-5">{achievementSection.subtitle}</p>
                 <div className="mt-4 grid md:grid-cols-3 gap-4">
                     {achievementSection.achievementsCards.map((a,idx)=> (
                     <div key={idx} className="card p-4">
