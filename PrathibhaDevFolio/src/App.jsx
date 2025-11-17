@@ -14,6 +14,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 import { splashScreen } from './portfolio'
+import ToggleSwitch from './custombuttons/ToggleSwitch'
 
 
 
@@ -51,8 +52,11 @@ return (
     <Projects />
     <Achievements />
     <Contact />
+    <ToggleSwitch/>
   </main>
     <Footer />
+
+    
   
   {/* <h1>Hello </h1> */}
 </div>

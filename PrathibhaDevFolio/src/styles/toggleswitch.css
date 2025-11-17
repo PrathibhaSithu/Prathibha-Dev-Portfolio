@@ -121,7 +121,10 @@
   background-image: linear-gradient(to bottom, var(--container-night-bg) 0%, #2d3142 100%);
 }
 .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container {
-  left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter));
+  /* left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter)); */
+  left: calc(
+      100% - var(--circle-container-offset) - var(--circle-container-diameter)
+  );
 }
 .theme-switch__checkbox:checked + .theme-switch__container .theme-switch__circle-container:hover {
   left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter) - 0.187em);
