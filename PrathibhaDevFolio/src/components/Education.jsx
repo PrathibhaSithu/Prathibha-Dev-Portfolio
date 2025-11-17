@@ -7,7 +7,7 @@ export default function Education(){
     const ref = useReveal()
     if(!educationInfo?.display) return null
     return (
-        <section className="mt-20" id='education' ref={ref}>
+        <section className="mt-5" id='education' ref={ref}>
             <div className="reveal">
                 <h3 className="uppercase text-5xl text-[#f0f0f0]">Education</h3>
                 <div className="mt-4 space-y-4">
