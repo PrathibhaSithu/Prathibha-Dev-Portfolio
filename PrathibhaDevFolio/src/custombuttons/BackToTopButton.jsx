@@ -4,17 +4,21 @@ export default function BackToTopButton() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const hero = document.getElementById("hero"); // your Hero section id
-    const toggleVisibility = () => {
-      if (hero) {
-        const heroBottom = hero.offsetTop + hero.offsetHeight;
-        if (window.scrollY > heroBottom) setVisible(true);
-        else setVisible(false);
+    const hero = document.getElementById("hero"); // make sure Hero section has this id
+    if (!hero) return;
+
+    const handleScroll = () => {
+      // show button after user scrolls past hero section height
+      const heroBottom = hero.offsetTop + hero.offsetHeight;
+      if (window.scrollY > heroBottom) {
+        setVisible(true);
+      } else {
+        setVisible(false);
       }
     };
 
-    window.addEventListener("scroll", toggleVisibility);
-    return () => window.removeEventListener("scroll", toggleVisibility);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToTop = () => {
@@ -24,18 +28,16 @@ export default function BackToTopButton() {
   return (
     <button
       onClick={scrollToTop}
-      className={`
-        fixed bottom-6 right-6 z-50
-        cursor-pointer relative
-        after:content-['scroll_to_top'] after:text-white after:absolute 
-        after:text-nowrap after:scale-0 hover:after:scale-100 
-        after:duration-200 w-16 h-16 rounded-full 
-        border border-4 border-sky-200 bg-black 
-        flex items-center justify-center duration-300 
-        hover:rounded-[50px] hover:w-36 
-        group/button overflow-hidden active:scale-90
-        transition-all
-        ${visible ? "opacity-100" : "opacity-0 pointer-events-none"}
+      className={`fixed bottom-[20px] **right-[20px]** cursor-pointer relative 
+           after:content-['scroll_to_top'] after:text-white after:absolute 
+           after:text-nowrap after:scale-0 hover:after:scale-100 
+           after:duration-200 w-16 h-16 rounded-full 
+           border border-4 border-sky-200 bg-black 
+           flex items-center justify-center duration-300 
+           hover:rounded-[50px] hover:w-36 
+           group/button overflow-hidden active:scale-90
+           transition-all
+           ${visible ? "opacity-100" : "opacity-0 pointer-events-none"}
       `}
     >
       <svg

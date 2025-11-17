@@ -1,5 +1,5 @@
 
-import ToggleSwitch from "./ToggleSwitch";
+import ToggleSwitch from "../custombuttons/ToggleSwitch";
 import '../styles/styles.css'
 import {
   greeting,
