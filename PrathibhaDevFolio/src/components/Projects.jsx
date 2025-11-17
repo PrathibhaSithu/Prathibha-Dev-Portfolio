@@ -44,6 +44,7 @@ export default function Projects() {
                     ))}
                 </div>
             </div>
+            <hr className="border-[#f0f0f0] mt-20 mb-6" />
         </section>
     )
 }
